@@ -1,6 +1,6 @@
-namespace Gelateria;
+namespace GestioneGelateria;
 
-public class Components
+public class Gelateria
 {
     public static void StampaMenu(string[] gusti, double[] prezzi)
     {

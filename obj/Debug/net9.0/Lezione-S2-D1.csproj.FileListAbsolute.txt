@@ -12,3 +12,4 @@ C:\Users\marce\Desktop\GitHub\ItConsulting\Lezione-S2-D1\Lezione-S2-D1\obj\Debug
 C:\Users\marce\Desktop\GitHub\ItConsulting\Lezione-S2-D1\Lezione-S2-D1\obj\Debug\net9.0\Lezione-S2-D1.pdb
 C:\Users\marce\Desktop\GitHub\ItConsulting\Lezione-S2-D1\Lezione-S2-D1\obj\Debug\net9.0\Lezione-S2-D1.genruntimeconfig.cache
 C:\Users\marce\Desktop\GitHub\ItConsulting\Lezione-S2-D1\Lezione-S2-D1\obj\Debug\net9.0\ref\Lezione-S2-D1.dll
+C:\Users\marce\Desktop\GitHub\ItConsulting\Lezione-S2-D1\Lezione-S2-D1\obj\Debug\net9.0\Lezione-S2-D1.sourcelink.json

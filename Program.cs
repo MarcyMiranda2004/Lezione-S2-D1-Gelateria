@@ -5,7 +5,7 @@ class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Benvenuto alla Gelateria Dolce Gelo!");
-        Console.WriteLine("(Con una spesa superiore ai 10€ hai diritto a un 10% di sconto)");
+        Console.WriteLine("(Con una spesa superiore ai 1€ hai diritto a un 10% di sconto)");
 
         string[] gusti = { "Cioccolato", "Nocciola", "Caffè", "Pistacchio", "Zuppa Inglese" };
         double[] prezzi = { 0.11, 0.12, 0.15, 0.20, 0.18 };
@@ -39,7 +39,7 @@ class Program
 
         double totale = Components.CalcolaTotale(gustiScelti, count, prezzi);
 
-        if (totale > 10)
+        if (totale > 1)
         {
             Console.WriteLine("Hai diritto a uno sconto del 10%!");
             totale *= 0.9;
@@ -48,10 +48,10 @@ class Program
         Console.WriteLine("\n--- Riepilogo Ordine ---");
         for (int i = 0; i < count; i++)
         {
-            Console.WriteLine($"{gusti[gustiScelti[i]]} - {prezzi[gustiScelti[i]]:0.00}€");
+            Console.WriteLine($"{gusti[gustiScelti[i]]} - {prezzi[gustiScelti[i]]}€");
         }
 
-        Console.WriteLine($"Totale da pagare: {totale:0.00}€");
+        Console.WriteLine($"Totale da pagare: {totale}€");
         Console.WriteLine("Grazie per aver scelto Dolce Gelo!");
     }
 }

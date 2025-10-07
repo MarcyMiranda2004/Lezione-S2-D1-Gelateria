@@ -1,7 +1,9 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using GestioneGelateria;
 using GestionePersone;
+using GestionePersona2;
 using GestioneOperazioni;
+using GestioneProdotto;
 
 class Program
 {
@@ -35,6 +37,18 @@ class Program
 
                 case 3:
                     Ess3();
+                    break;
+
+                case 4:
+                    Ess4();
+                    break;
+
+                case 5:
+                    Ess5();
+                    break;
+
+                case 6:
+                    Ess6();
                     break;
 
                 case 0:
@@ -129,4 +143,20 @@ class Program
         op.Moltiplica(n1, n2);
     }
 
+    public static void Ess4()
+    {
+        Persona2 p = new Persona2 { Nome = "Luca", Eta = 25 };
+        Console.WriteLine(p);
+    }
+
+    public static void Ess5() { }
+
+    public static void Ess6()
+    {
+        Prodotto p1 = new Prodotto { Nome = "Penna", Prezzo = 1.50 };
+        Prodotto p2 = new Prodotto { Nome = "penna", Prezzo = 1.50 };
+
+        Console.WriteLine(p1.GetHashCode());
+        Console.WriteLine(p2.GetHashCode());
+    }
 }
